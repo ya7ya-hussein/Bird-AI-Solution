@@ -1,0 +1,49 @@
+.login-page {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 80vh; /* Take up the full viewport height */
+  text-align: center;
+  /* background: url("your-background-image.jpg") no-repeat center center; Replace with your actual background image */
+  background-size: cover;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 40px; /* More padding for a larger form */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+  width: 50%; /* Increase the width as needed */
+  max-width: 500px; /* Maximum width */
+}
+
+.login-form input {
+  display: block;
+  width: calc(100% - 20px); /* Full width minus padding */
+  margin: 10px 0;
+  padding: 15px; /* Larger input fields */
+  font-size: 16px; /* Larger font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: calc(100% - 20px);
+  padding: 15px; /* Larger button */
+  font-size: 18px; /* Larger font size */
+  margin-top: 20px; /* Spacing above the button */
+  background-color: #d9534f; /* Bootstrap's btn-danger color as an example */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #c9302c; /* Darken button when hovered */
+}
+
+.login-footer {
+  margin-top: 20px; /* Spacing above the footer */
+  font-size: 14px; /* Set font size for footer text */
+}
