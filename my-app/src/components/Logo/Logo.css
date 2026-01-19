@@ -1,0 +1,28 @@
+.logo-container {
+  padding: 15px;
+  z-index: 10;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.9;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}

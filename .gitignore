@@ -1,0 +1,55 @@
+*.onnx
+best.onnx
+
+# Datasets (too large for git)
+datasets/
+
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Test coverage
+coverage/
+
+# Package lock files (optional, some prefer to keep these)
+# package-lock.json
+# yarn.lock
+Test/*.mp4
+Test/*.avi
+*.mp4
+*.avi
+*.mp4
+*.avi
+*.onnx
+best.onnx
+Test/*.mp4
+datasets/

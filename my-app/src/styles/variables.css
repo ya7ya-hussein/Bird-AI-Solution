@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #4285f4; /* Google blue */
+  --secondary-color: #34a853; /* Google green */
+  --accent-color: #fbbc05; /* Google yellow */
+  --danger-color: #ea4335; /* Google red */
+  --dark-bg: #1e1e1e;
+  --dark-overlay: rgba(30, 30, 30, 0.8);
+  --light-text: #ffffff;
+  --gray-text: #aaaaaa;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-bg-dark: rgba(40, 40, 40, 0.85);
+  --border-radius: 10px;
+  --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

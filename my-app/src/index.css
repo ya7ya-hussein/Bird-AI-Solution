@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Needed to position the pseudo-element correctly */
+  height: 100vh;
+}
+
+body::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: -1; /* Change from 1 to -1 to place it behind content */
+  pointer-events: none; /* This makes the overlay non-interactive */
+}
+
+/* Additional styles for content to ensure it is above the overlay */
+.content {
+  position: relative;
+  z-index: 2;
+}
