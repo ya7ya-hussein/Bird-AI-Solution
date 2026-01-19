@@ -59,42 +59,9 @@ The app will be available at `http://localhost:3000`
 5. **Watch real-time detection** as birds are identified
 6. **View results** with species breakdown and recommendations
 
-## API Endpoints
+## Author
+**Yahya Hussein**
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/signup` | POST | Register new user |
-| `/login` | POST | Authenticate user |
-| `/logout` | GET | End user session |
-| `/upload` | POST | Upload video for processing |
-| `/get_frame/<id>` | GET | Get current processing frame |
-| `/get_results/<id>` | GET | Get final detection results |
-
-## Project Structure
-
-```
-Bird-AI-Solution/
-├── backend/
-│   ├── app.py          # Flask server & YOLO processing
-│   └── best.pt         # YOLO model weights
-└── my-app/
-    ├── src/
-    │   ├── components/
-    │   │   ├── Hero/
-    │   │   ├── LoginSignUp/
-    │   │   ├── Upload/
-    │   │   ├── Results/
-    │   │   └── ...
-    │   ├── App.js
-    │   └── index.js
-    └── package.json
-```
-
-## License
-
-This project is for educational purposes.
-
-## Contact
-
-📍 Shah Alam, Selangor  
-📧 yaser.ameen@s.unikl.edu.my
+**LinkedIn:** https://www.linkedin.com/in/ya7ya-hussein
+**GitHub:** https://github.com/ya7ya-hussein
+**Email:** ya7ya-hussein@outlook.com
